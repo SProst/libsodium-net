@@ -1,6 +1,8 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.3
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "libsodium-net", "libsodium-net\libsodium-net.csproj", "{48C1DF3F-2E09-4088-89B2-6E1B058E3100}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{9A3A225B-2940-42B3-81A3-A06565FAB856}"
@@ -17,6 +19,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{10F262
 		.nuget\packages.config = .nuget\packages.config
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "libsodium-net-standard", "libsodium-net-standard\libsodium-net-standard.csproj", "{F1EE6DC0-3EE2-4BB2-8CC9-9E694D98BA68}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +35,10 @@ Global
 		{9A3A225B-2940-42B3-81A3-A06565FAB856}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A3A225B-2940-42B3-81A3-A06565FAB856}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A3A225B-2940-42B3-81A3-A06565FAB856}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1EE6DC0-3EE2-4BB2-8CC9-9E694D98BA68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1EE6DC0-3EE2-4BB2-8CC9-9E694D98BA68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1EE6DC0-3EE2-4BB2-8CC9-9E694D98BA68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1EE6DC0-3EE2-4BB2-8CC9-9E694D98BA68}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
